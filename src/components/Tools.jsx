@@ -19,19 +19,27 @@ export default function Tools() {
           <h2 className="section-title">Skills</h2>
         </div>
 
-        <div className="skills-horizontal">
-          {skillCategories.map((category) => (
-            <div key={category.key} className="skill-category-horizontal">
-              <h3 className="skill-category-title">{category.label}</h3>
-              <div className="skill-list">
-                {portfolio.skills[category.key].map((skill, index) => (
-                  <span key={index} className="tag">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
+        <div className="skills-table">
+          <table className="skills-table-content">
+            <tbody>
+              {skillCategories.map((category) => (
+                <tr key={category.key} className="skill-row">
+                  <td className="skill-category-cell">
+                    <h3 className="skill-category-title">{category.label}</h3>
+                  </td>
+                  <td className="skill-list-cell">
+                    <div className="skill-list">
+                      {portfolio.skills[category.key].map((skill, index) => (
+                        <span key={index} className="tag">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </section>

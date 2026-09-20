@@ -8,14 +8,14 @@
   --color-text-tertiary: #868e96;
   --color-border: #dee2e6;
   --color-border-light: #e9ecef;
-  --color-accent: #0d6efd;
-  --color-accent-light: #e7f1ff;
-  --color-accent-dark: #0a58ca;
-  --color-accent-secondary: #198754;
-  --color-accent-secondary-light: #d1e7dd;
-  --color-gradient-primary: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
-  --color-gradient-secondary: linear-gradient(135deg, #198754 0%, #146c43 100%);
-  --color-gradient-accent: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+  --color-accent: #059669;
+  --color-accent-light: #ecfdf5;
+  --color-accent-dark: #047857;
+  --color-accent-secondary: #7c3aed;
+  --color-accent-secondary-light: #ede9fe;
+  --color-gradient-primary: linear-gradient(135deg, #059669 0%, #047857 100%);
+  --color-gradient-secondary: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+  --color-gradient-accent: linear-gradient(135deg, #059669 0%, #7c3aed 100%);
 
   /* Spacing */
   --space-4: 4px;
