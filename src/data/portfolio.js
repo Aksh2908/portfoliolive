@@ -158,14 +158,8 @@ export const portfolio = {
   metrics: [
     { label: 'CGPA', value: '9.42/10' },
     { label: 'Model Accuracy', value: '87%' },
-    { label: 'Anomaly Detection Precision', value: '96%' },
     { label: 'Verification Time Reduction', value: '65%' },
-    { label: 'Turnaround Time Reduction', value: '80%' },
-    { label: 'Tech Quiz Participants', value: '480,000+' },
-    { label: 'Test Votes', value: '200+' },
-    { label: 'Dashboard Visualizations', value: '10+' },
-    { label: 'University Events Coordinated', value: '10+' },
-    { label: 'Documents per Institution', value: '100+' }
+    { label: 'Tech Quiz Participants', value: '480,000+' }
   ],
 
   assets: {

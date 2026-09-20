@@ -53,14 +53,23 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-            <a
-              href={portfolio.assets.resume}
-              className="btn btn-primary navbar-resume"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
+            <div className="navbar-actions">
+              <button
+                className="navbar-shortcut"
+                onClick={() => window.dispatchEvent(new KeyboardEvent('keydown', { ctrlKey: true, key: 'k' }))}
+                aria-label="Open navigation"
+              >
+                <kbd>Ctrl</kbd> + <kbd>K</kbd>
+              </button>
+              <a
+                href={portfolio.assets.resume}
+                className="btn btn-primary navbar-resume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </div>
           </div>
 
           <button
