@@ -101,6 +101,16 @@ p {
   .section {
     padding: var(--space-120) 0;
   }
+
+  .contact.section {
+    padding-bottom: var(--space-64);
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--space-120) 0;
+  }
 }
 
 @media (max-width: 480px) {
