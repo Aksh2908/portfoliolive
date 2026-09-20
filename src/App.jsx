@@ -2,7 +2,6 @@ import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Context from './components/Context.jsx';
 import Work from './components/Work.jsx';
-import Metrics from './components/Metrics.jsx';
 import Tools from './components/Tools.jsx';
 import Milestones from './components/Milestones.jsx';
 import About from './components/About.jsx';
@@ -21,7 +20,6 @@ function App() {
         <Hero />
         <Context />
         <Work />
-        <Metrics />
         <Tools />
         <Milestones />
         <About />

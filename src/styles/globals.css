@@ -82,18 +82,18 @@ p {
 }
 
 .section {
-  padding: var(--space-120) 0;
+  padding: var(--space-160) 0;
 }
 
 @media (max-width: 768px) {
   .section {
-    padding: var(--space-80) 0;
+    padding: var(--space-120) 0;
   }
 }
 
 @media (max-width: 480px) {
   .section {
-    padding: var(--space-64) 0;
+    padding: var(--space-96) 0;
   }
 }
 

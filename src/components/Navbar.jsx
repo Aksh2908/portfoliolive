@@ -110,22 +110,6 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={`https://${portfolio.personal.github}`}
-            className="mobile-menu-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-          <a
-            href={`https://${portfolio.personal.linkedin}`}
-            className="mobile-menu-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a
             href={portfolio.assets.resume}
             className="mobile-menu-link"
             target="_blank"

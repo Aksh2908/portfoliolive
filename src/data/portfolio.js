@@ -155,12 +155,7 @@ export const portfolio = {
     }
   ],
 
-  metrics: [
-    { label: 'CGPA', value: '9.42/10' },
-    { label: 'Model Accuracy', value: '87%' },
-    { label: 'Verification Time Reduction', value: '65%' },
-    { label: 'Tech Quiz Participants', value: '480,000+' }
-  ],
+
 
   assets: {
     resume: '/data/AkshitaChaudhary_Resume.pdf',
@@ -172,6 +167,7 @@ export const portfolio = {
     { label: 'Tools', href: '#tools' },
     { label: 'Milestones', href: '#milestones' },
     { label: 'About', href: '#about' },
+    { label: 'Experience', href: '#experience' },
     { label: 'Education', href: '#education' },
     { label: 'Contact', href: '#contact' }
   ]

@@ -3,7 +3,7 @@ import '../styles/components.css';
 
 export default function Experience() {
   return (
-    <section className="section experience">
+    <section id="experience" className="section experience">
       <div className="container">
         <div className="section-header">
           <p className="section-label">Experience</p>

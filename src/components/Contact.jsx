@@ -4,20 +4,21 @@ import '../styles/components.css';
 export default function Contact() {
   return (
     <section id="contact" className="section contact">
-      <div className="container">
-        <div className="contact-hero">
-          <h2 className="contact-title">Let's Build Something.</h2>
-          <p className="contact-subtitle">
-            Have an interesting problem, project, or opportunity?
-          </p>
+      <div className="container-text">
+        <div className="section-header">
+          <p className="section-label">Contact</p>
+          <h2 className="section-title">Let's Talk</h2>
+        </div>
 
-          <div className="contact-actions">
-            <a
-              href={`mailto:${portfolio.personal.email}`}
-              className="btn btn-primary"
-            >
-              Email Me
-            </a>
+        <div className="contact-content">
+          <a
+            href={`mailto:${portfolio.personal.email}`}
+            className="contact-email link"
+          >
+            {portfolio.personal.email}
+          </a>
+
+          <div className="contact-links">
             <a
               href={`https://${portfolio.personal.linkedin}`}
               className="btn btn-ghost link-external"
@@ -33,6 +34,14 @@ export default function Contact() {
               rel="noopener noreferrer"
             >
               GitHub
+            </a>
+            <a
+              href={portfolio.assets.resume}
+              className="btn btn-ghost link-external"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
             </a>
           </div>
         </div>
