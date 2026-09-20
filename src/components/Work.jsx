@@ -4,7 +4,6 @@ import '../styles/components.css';
 
 export default function Work() {
   const [activeProject, setActiveProject] = useState(0);
-  const [visibleSections, setVisibleSections] = useState({});
   const projectRefs = useRef([]);
 
   useEffect(() => {
@@ -15,12 +14,11 @@ export default function Work() {
             const index = projectRefs.current.indexOf(entry.target);
             if (index !== -1) {
               setActiveProject(index);
-              setVisibleSections(prev => ({ ...prev, [index]: true }));
             }
           }
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.3 }
     );
 
     projectRefs.current.forEach((ref) => {
@@ -69,7 +67,7 @@ export default function Work() {
               <article
                 key={project.id}
                 ref={(el) => (projectRefs.current[index] = el)}
-                className={`project project-${index + 1} ${visibleSections[index] ? 'visible' : ''}`}
+                className={`project project-${index + 1}`}
               >
                 <div className="project-layout">
                   <div className="project-visual-container layer-1">
