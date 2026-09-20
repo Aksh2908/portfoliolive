@@ -1,0 +1,134 @@
+PORTFOLIO INFORMATION - AKSHITA CHAUDHARY
+========================================
+
+PERSONAL INFORMATION
+-------------------
+Full Name: Akshita Chaudhary
+Email: meakshitachaudhary@gmail.com
+Phone: +91 9258092280 (NOT to be displayed publicly)
+LinkedIn: linkedin.com/in/akshita-chaudhary29
+GitHub: github.com/Aksh2908
+Location: Uttarakhand (from university)
+Professional Headline: Computer Science & Engineering student (or choose professional alternative)
+
+EDUCATION
+---------
+Primary:
+- B.Tech, Computer Science & Engineering
+- Graphic Era Hill University, Uttarakhand
+- Aug 2023 - Jul 2027 (Expected)
+- CGPA: 9.42 / 10.0
+- Relevant Coursework: AI/ML, Algorithms, Operating Systems, DBMS, Computer Networks
+
+Secondary:
+- Class 12th Percentage: 96%
+- Riverdale International School, Bazpur, Uttarakhand
+- Apr 2021 - Apr 2022
+
+SKILLS
+------
+Languages: Python, C++, Java, C
+Web & UI: HTML, CSS, React.js, Tailwind
+Backend/Frameworks: Node.js, Express, Flask, Solidity
+AI/ML: TensorFlow, Keras, OpenCV, NLTK
+Databases: PostgreSQL, MongoDB, SQL
+Methodologies: Agile Development, REST APIs, SDLC
+
+PROJECTS
+--------
+01 - Cyber Crime Analysis System
+- GitHub: https://github.com/NJ2612/Cyber_Crime_Analysis_System
+- Live Demo: none
+- Screenshot: data/cyberanalysis.jpg
+- Dates: Nov 2025 - Present
+- Description: Aggregated 5+ years of cybercrime data and performed EDA using Pandas, SQL, and Matplotlib
+- Approach: Trained Logistic Regression, Random Forest, and XGBoost models
+- Technologies: Pandas, SQL, Matplotlib, Logistic Regression, Random Forest, XGBoost
+- Metrics: 87% accuracy, 10+ dashboard visualizations
+- Results: Designed dashboard to track crime patterns and high-risk regions
+
+02 - Smart Task Manager
+- GitHub: https://github.com/Aksh2908/smart_task_manager
+- Live Demo: none
+- Screenshot: data/taskmanagement.webp
+- Dates: Sep 2025 - Oct 2025
+- Description: Built a real-time system monitor using FastAPI, psutil, and React.js with 1-second latency
+- Approach: Implemented 5 ML components including IsolationForest anomaly detection and CPU forecasting
+- Technologies: FastAPI, psutil, React.js, IsolationForest
+- Metrics: 96% precision, 1-second latency
+- Results: Rendered CPU scheduling simulations and automated alerts via React-based dashboard
+
+03 - Votix - Blockchain-Based Voting System
+- GitHub: https://github.com/Aksh2908/MyVotix
+- Live Demo: none
+- Screenshot: data/blockchainvoting system.webp
+- Dates: Apr 2025 - May 2025
+- Description: Designed a secure voting platform using Solidity and Web3 with smart contract validation
+- Approach: Implemented contracts that processed test votes without conflicts
+- Technologies: Solidity, Web3
+- Metrics: 200+ test votes
+- Results: Developed and deployed a user-friendly interface for seamless voter participation
+
+04 - AI-Driven Institutional Inspection System (SIH Finalist)
+- GitHub: https://github.com/Aksh2908/U.I.W.A
+- Live Demo: none
+- Screenshot: data/institutioninspectionsystem.jpg
+- Dates: Nov 2024 - Dec 2024
+- Description: Engineered an AI-based inspection system using TensorFlow, OpenCV, and Flask
+- Approach: Applied image recognition and NLP to evaluate building conditions and estimate lifespan
+- Technologies: TensorFlow, OpenCV, Flask, NLP
+- Metrics: 65% reduction in verification time, 80% reduction in turnaround time, 100+ documents per institution
+- Results: Smart India Hackathon finalist
+
+EXPERIENCE
+----------
+Role: Management Intern
+Organization: The Rogers Group
+Dates: 2023 - Present
+Responsibilities: Coordinated 10+ university events, streamlined vendor operations, boosted engagement
+
+ACHIEVEMENTS
+-----------
+- Smart India Hackathon 2024: Finalist - Ranked in the top 2.4% nationwide
+- Google Girl Hackathon 2025: Qualified coding rounds - among the top 2% performers
+- Flipkart Grid 7.0: Qualified coding rounds - among the top 2% performers
+- Amazon HackOn 5: Qualified coding rounds - among the top 2% performers
+- Flipkart Grid 6.0 Tech Quiz: Cleared - outperformed 480,000+ participants
+
+EXTRACURRICULAR
+--------------
+Role: Management Intern
+Organization: The Rogers Group
+Dates: 2023 - Present
+Responsibilities: Coordinated 10+ university events, streamlined vendor operations, boosted engagement
+
+DESIGN PREFERENCES
+------------------
+Theme: Light theme only (not too much white, professional appearance)
+Accent Color: Choose professional restrained accent
+Profile Photo: No
+Personal Logo: No
+Favicon: data/favicon.png
+Resume Behavior: Two options - View (open in new tab) and Download (direct download)
+About Section: Keep factual and modest
+Privacy: No phone number display, no other omissions
+
+ASSETS
+------
+Resume: data/AkshitaChaudhary_Resume.pdf
+Favicon: data/favicon.png
+Project Screenshots:
+- Cyber Crime Analysis System: data/cyberanalysis.jpg
+- Smart Task Manager: data/taskmanagement.webp
+- Votix: data/blockchainvoting system.webp
+- AI-Driven Institutional Inspection System: data/institutioninspectionsystem.jpg
+
+TECHNICAL REQUIREMENTS
+----------------------
+Framework: React + Vite
+Performance: Lightweight, fast, minimal dependencies
+No dark mode, no theme toggle
+No heavy animation libraries
+No Three.js, WebGL, or canvas unless necessary
+Accessibility: Semantic HTML, keyboard navigation, reduced motion support
+Mobile-first responsive design
