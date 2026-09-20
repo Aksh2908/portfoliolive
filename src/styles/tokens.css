@@ -1,22 +1,21 @@
 :root {
-  /* Colors - Vibrant Lively Theme */
-  --color-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --color-background-solid: #f8f9ff;
+  /* Colors - Professional Theme */
+  --color-background: #f8f9fa;
   --color-surface: #ffffff;
-  --color-surface-alt: #f0f4ff;
-  --color-text-primary: #1a1a2e;
-  --color-text-secondary: #4a4a6a;
-  --color-text-tertiary: #8888a0;
-  --color-border: #e0e4ff;
-  --color-border-light: #f0f4ff;
-  --color-accent: #6366f1;
-  --color-accent-light: #e0e7ff;
-  --color-accent-dark: #4338ca;
-  --color-accent-secondary: #f472b6;
-  --color-accent-secondary-light: #fce7f3;
-  --color-gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --color-gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  --color-gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --color-surface-alt: #f1f3f5;
+  --color-text-primary: #212529;
+  --color-text-secondary: #495057;
+  --color-text-tertiary: #868e96;
+  --color-border: #dee2e6;
+  --color-border-light: #e9ecef;
+  --color-accent: #0d6efd;
+  --color-accent-light: #e7f1ff;
+  --color-accent-dark: #0a58ca;
+  --color-accent-secondary: #198754;
+  --color-accent-secondary-light: #d1e7dd;
+  --color-gradient-primary: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  --color-gradient-secondary: linear-gradient(135deg, #198754 0%, #146c43 100%);
+  --color-gradient-accent: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
 
   /* Spacing */
   --space-4: 4px;
@@ -57,14 +56,13 @@
   --container-narrow: 600px;
 
   /* Transitions */
-  --transition-fast: 150ms ease-out;
-  --transition-normal: 250ms ease-out;
-  --transition-slow: 400ms ease-out;
+  --transition-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
   /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.1);
-  --shadow-glow: 0 4px 20px rgba(99, 102, 241, 0.3);
-  --shadow-glow-hover: 0 8px 30px rgba(99, 102, 241, 0.4);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.04);
 }

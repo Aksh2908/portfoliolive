@@ -15,7 +15,7 @@ body {
   font-size: var(--font-size-body);
   line-height: var(--line-height-normal);
   color: var(--color-text-primary);
-  background: var(--color-background-solid);
+  background: var(--color-background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -136,18 +136,6 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
-}
-
-.app::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--color-background);
-  z-index: -1;
-  background-attachment: fixed;
 }
 
 main {
