@@ -19,9 +19,9 @@ export default function Tools() {
           <h2 className="section-title">Skills</h2>
         </div>
 
-        <div className="skills-grid">
+        <div className="skills-horizontal">
           {skillCategories.map((category) => (
-            <div key={category.key} className="skill-category">
+            <div key={category.key} className="skill-category-horizontal">
               <h3 className="skill-category-title">{category.label}</h3>
               <div className="skill-list">
                 {portfolio.skills[category.key].map((skill, index) => (
