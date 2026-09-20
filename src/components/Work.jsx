@@ -4,6 +4,7 @@ import '../styles/components.css';
 
 export default function Work() {
   const [activeProject, setActiveProject] = useState(0);
+  const [visibleSections, setVisibleSections] = useState({});
   const projectRefs = useRef([]);
 
   useEffect(() => {
@@ -14,11 +15,12 @@ export default function Work() {
             const index = projectRefs.current.indexOf(entry.target);
             if (index !== -1) {
               setActiveProject(index);
+              setVisibleSections(prev => ({ ...prev, [index]: true }));
             }
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.2 }
     );
 
     projectRefs.current.forEach((ref) => {
@@ -67,25 +69,21 @@ export default function Work() {
               <article
                 key={project.id}
                 ref={(el) => (projectRefs.current[index] = el)}
-                className={`project project-${index + 1}`}
+                className={`project project-${index + 1} ${visibleSections[index] ? 'visible' : ''}`}
               >
                 <div className="project-layout">
-                  <div className="project-visual-container">
+                  <div className="project-visual-container layer-1">
                     {project.screenshot && (
                       <img
                         src={project.screenshot}
                         alt={project.title}
                         className="project-image"
                         loading="lazy"
-                        onError={(e) => {
-                          e.target.style.display = 'none';
-                          e.target.parentElement.style.background = 'var(--color-surface-alt)';
-                        }}
                       />
                     )}
                   </div>
 
-                  <div className="project-content">
+                  <div className="project-content layer-2">
                     <div className="project-header">
                       <span className="project-number">{project.number}</span>
                       <h3 className="project-title">{project.title}</h3>

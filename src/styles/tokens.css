@@ -1,16 +1,18 @@
 :root {
-  /* Colors - Professional Light Theme */
-  --color-background: #FAFAF9;
+  /* Colors - Lively Professional Theme */
+  --color-background: #F8F7F4;
   --color-surface: #FFFFFF;
-  --color-surface-alt: #F5F5F4;
-  --color-text-primary: #1C1917;
-  --color-text-secondary: #57534E;
-  --color-text-tertiary: #A8A29E;
-  --color-border: #E7E5E4;
-  --color-border-light: #F5F5F4;
-  --color-accent: #44403C;
-  --color-accent-light: #F5F5F4;
-  --color-accent-dark: #292524;
+  --color-surface-alt: #F0EFE9;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A4A4A;
+  --color-text-tertiary: #888888;
+  --color-border: #E0DDD5;
+  --color-border-light: #EBE8E0;
+  --color-accent: #2D5A4A;
+  --color-accent-light: #E8F0ED;
+  --color-accent-dark: #1E3D32;
+  --color-accent-secondary: #D4A574;
+  --color-accent-secondary-light: #F5EDE4;
 
   /* Spacing */
   --space-4: 4px;
