@@ -1196,9 +1196,9 @@
 
 /* Footer Styles */
 .footer {
-  padding: var(--space-64) 0;
+  padding: var(--space-48) 0;
   border-top: 1px solid var(--color-border);
-  margin-top: var(--space-120);
+  margin-top: var(--space-48);
   background: var(--color-surface-alt);
 }
 
